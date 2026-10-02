@@ -3,7 +3,7 @@ public abstract class Ciencia {
 
     private String area;
 
-    public Ciencia(){
+    public Ciencia(String area){
         this.area = area;
     }
 
@@ -15,7 +15,5 @@ public abstract class Ciencia {
         this.area = area;
     }
 
-    public abstract void descricao(){
-
-    };
+    public abstract void descricao();
 }

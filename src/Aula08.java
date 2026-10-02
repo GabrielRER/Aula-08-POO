@@ -13,6 +13,8 @@ public class Aula08 {
 
         //------ Parte 2
         // --------------------
+        Ciencia historia = new Historia();
 
+        Ciencia fisica = new CienciaNatural("Física", "Física");
     }
 }
